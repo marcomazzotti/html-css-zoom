@@ -3,3 +3,104 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img{
+  width: 100%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* COMMON */
+
+.container{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.wrapper{
+  padding: 50px 50px;
+}
+
+.col{
+  width: calc(100% / 7);
+  /* border: 1px solid red; */
+  color: white;
+  position: relative;
+  padding: 0 5px 5px 0;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker{
+  background-color: rgb(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 20px;
+  margin-bottom: 9px;
+  padding: 3px;
+}
+
+.micro{
+  padding-left: 3px;
+}
+
+.menu{
+  width: 100%;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: white;
+  padding: 0 0 0 15px;
+  position: relative;;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.end-meeting{
+  color: red;
+  background-color: #4a4a4a;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  padding: 0 15px;
+}
+
+.header{
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.square{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #4a4a4a;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.speaker-view{
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  background-color: #4a4a4a;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
